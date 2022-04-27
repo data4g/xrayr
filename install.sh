@@ -149,7 +149,7 @@ install_XrayR() {
     if [[ ! -f /etc/XrayR/config.yml ]]; then
         cp config.yml /etc/XrayR/
         echo -e ""
-        echo -e "  Cài đặt mới, vui lòng tham khảo hướng dẫn trước：https://github.com/XrayR-project/XrayR，Định cấu hình nội dung cần thiết"
+        echo -e "  Cài đặt mới, vui lòng tham khảo hướng dẫn trước：https://github.com/quoctai0209/XrayR，Định cấu hình nội dung cần thiết"
     else
         systemctl start XrayR
         sleep 2
